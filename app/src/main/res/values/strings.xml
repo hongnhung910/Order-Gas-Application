@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Harvgas</string>
+    <string name="forgot_password">
+        <u>Forgot password</u>
+    </string>
+    <string name="sign_up">
+        <u>No account yet? Sign up now</u>
+    </string>
+</resources>

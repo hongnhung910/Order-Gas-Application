@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="Padding">20dp</dimen>
+    <dimen name="generalText">18sp</dimen>
+    <dimen name="bigText">20sp</dimen>
+    <dimen name="smallText">14sp</dimen>
+    <dimen name="linkText">18sp</dimen>
+    <dimen name="widthButton">200dp</dimen>
+    <dimen name="itemSize">100dp</dimen>
+    <dimen name="smallmargin">10dp</dimen>
+    <dimen name="sizeIcon">65dp</dimen>
+    <dimen name="smallButton">120dp</dimen>
+    <dimen name="bigmargin">30dp</dimen>
+</resources>

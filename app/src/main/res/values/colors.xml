@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#68D300</color>
+    <color name="colorPrimaryDark">#228B22</color>
+    <color name="colorAccent">#2f4f4f</color>
+    <color name="textOnButton">#ffffff</color>
+    <color name="buttonClicked">#006400</color>
+    <color name="black">#000000</color>
+    <color name="congrats">#439355</color>
+    <color name="gray">#737373</color>
+    <color name="notify">#d5d5d5</color>
+    <color name="highlight">#ef3939</color>
+
+</resources>

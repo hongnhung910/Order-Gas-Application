@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_customer_account">
+    <ImageView
+        android:layout_width="@dimen/itemSize"
+        android:layout_height="@dimen/itemSize"
+        android:src="@drawable/check_mark"
+        android:layout_marginBottom="@dimen/margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THANK YOU FOR YOUR ORDER!"
+        android:textSize="@dimen/margin"
+        android:textStyle="bold"
+        android:textColor="@color/congrats"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We will contact you soon"
+        android:textSize="@dimen/generalText"
+        android:textColor="@color/congrats"/>
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/clicked_button"
+        android:text="Continue shopping"
+        android:textSize="@dimen/bigText"
+        android:padding="@dimen/margin"
+        android:textColor="@color/textOnButton"
+        android:textStyle="bold"/>
+
+</LinearLayout>

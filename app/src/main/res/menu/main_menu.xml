@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_myAccount"
+        android:title="My account"
+        android:icon="@drawable/my_account"
+        />
+    <item
+        android:id="@+id/menu_SignOut"
+        android:title="Sign out"
+        android:icon="@drawable/signout"/>
+</menu>

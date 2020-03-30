@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/margin">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fullname_SignUp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:errorEnabled="true"
+        android:layout_marginTop="@dimen/margin">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:inputType="text"
+            android:maxLines="1" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/phone_SignUp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:errorEnabled="true"
+        android:layout_marginTop="@dimen/margin">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"
+            android:inputType="phone"
+            android:maxLines="1"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/address_SignUp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:errorEnabled="true"
+        android:layout_marginTop="@dimen/margin">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:maxLines="1"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/password_SignUp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:errorEnabled="true"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="@dimen/margin">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/cfPassword_SignUp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:errorEnabled="true"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="@dimen/margin">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:maxLines="1"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnCreateAccount_SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:text="Create account"
+        android:textColor="@color/textOnButton"
+        android:background="@drawable/clicked_button"
+        android:textSize="@dimen/bigText"
+        android:padding="@dimen/margin"/>
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_customer_account"
+    android:orientation="vertical"
+    tools:context=".My_account"
+    android:gravity="center_horizontal">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/customer"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/stroke">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/customer_account" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/smallmargin"
+            android:orientation="horizontal"
+            android:background="@drawable/border_account"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/sizeIcon"
+                android:layout_height="@dimen/sizeIcon"
+                android:src="@drawable/fullname"
+                android:layout_marginRight="@dimen/smallmargin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full name:"
+                android:textStyle="bold"
+                android:textSize="@dimen/generalText"/>
+            <EditText
+                android:id="@+id/name_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingRight="@dimen/smallmargin"
+                android:paddingLeft="@dimen/smallmargin"
+                android:backgroundTint="@color/textOnButton"
+                android:editable="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/smallmargin"
+            android:orientation="horizontal"
+            android:background="@drawable/border_account"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/sizeIcon"
+                android:layout_height="@dimen/sizeIcon"
+                android:src="@drawable/phone"
+                android:layout_marginRight="@dimen/smallmargin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone:"
+                android:textStyle="bold"
+                android:textSize="@dimen/generalText"/>
+            <EditText
+                android:id="@+id/phone_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingRight="@dimen/smallmargin"
+                android:paddingLeft="@dimen/smallmargin"
+                android:backgroundTint="@color/textOnButton"
+                android:editable="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/smallmargin"
+            android:orientation="horizontal"
+            android:background="@drawable/border_account"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/sizeIcon"
+                android:layout_height="@dimen/sizeIcon"
+                android:src="@drawable/address"
+                android:layout_marginRight="@dimen/smallmargin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textStyle="bold"
+                android:textSize="@dimen/generalText"/>
+            <EditText
+                android:id="@+id/address_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingRight="@dimen/smallmargin"
+                android:paddingLeft="@dimen/smallmargin"
+                android:backgroundTint="@color/textOnButton"
+                android:editable="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/smallmargin"
+            android:orientation="horizontal"
+            android:background="@drawable/border_account"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/sizeIcon"
+                android:layout_height="@dimen/sizeIcon"
+                android:src="@drawable/username"
+                android:layout_marginRight="@dimen/smallmargin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username:"
+                android:textStyle="bold"
+                android:textSize="@dimen/generalText"/>
+            <EditText
+                android:id="@+id/username_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingRight="@dimen/smallmargin"
+                android:paddingLeft="@dimen/smallmargin"
+                android:backgroundTint="@color/textOnButton"
+                android:editable="false"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        android:src="@drawable/logo" />
+
+</LinearLayout>
